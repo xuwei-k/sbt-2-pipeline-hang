@@ -4,7 +4,7 @@ logLevel := Level.Debug
 
 exportJars := false
 
-ThisBuild / usePipelining := true
+usePipelining := true
 
 lazy val a = project
 
